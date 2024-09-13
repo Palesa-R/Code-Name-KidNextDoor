@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #334664;
+  padding: 10px;
+}
+nav a {
+  color: #e1b6e4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navbarItems {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.myphoto {
+  height: 300px;
+  width: 300px;
+  padding: 40px;
+  border-radius: 200px;
+}
+.navBarLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.iconz {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+.bio {
+  display: flex;
+  align-items: center;
+  background-color: #f7ede4;
+  padding: 60px;
+  border-radius: 40px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #7c8192;
+}
+
+.section-two {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c8192;
+}
+.section-three {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0d5dd;
+}
+
+h3 {
+  color: #f7ede4;
+}
+.appIcon {
+  height: 200px;
+  width: 200px;
+  border-radius: 120px;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: black;
+  font-size: 30px;
+}
+.contact {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0d5dd;
+}
+#email {
+  height: 40px;
+  width: 600px;
+  border-radius: 8px;
+  border: 5px;
+}
+#name {
+  width: 600px;
+  height: 40px;
+  border-radius: 8px;
+  border: 5px;
+}
+#message {
+  width: 600px;
+  height: 250px;
+  border-radius: 8px;
+  border: 5px;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  color: #e1b6e4;
+  background-color: #334664;
+  margin: 20px;
+}
+button:hover {
+  cursor: pointer;
+  color: #334664;
+  background-color: #e1b6e4;
+}
+h4 {
+  padding: 5px;
+  font-size: 20px;
+}
+.me {
+  margin: 50px;
+}
